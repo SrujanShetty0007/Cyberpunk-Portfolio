@@ -5,7 +5,7 @@
     --dark-bg: #0a0a0f;
     --darker-bg: #050507;
     --light-text: #ffffff;
-    --card-bg: rgba(10, 10, 15, 0.5);
+    --card-bg: rgba(18, 18, 24, 0.785);
     --gradient: linear-gradient(45deg, var(--neon-blue), var(--neon-purple));
     --css-color: #1572B6;
     --html-color: #E34F26;
@@ -506,7 +506,7 @@ nav {
 }
 
 .portfolio-item {
-    background: rgb(21, 23, 32);
+    background: var(--card-bg);
     border: 1px solid var(--neon-blue);
     border-radius: 10px;
     overflow: hidden;
