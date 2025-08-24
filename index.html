@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyberpunk Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <!-- LOGO -->
+            <div class="logo">NAAN<span>U</span></div>
+
+            <!-- Add checkbox and label for menu toggle -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+            <!-- menu icon -->
+            <label for="nav-toggle" class="menu-btn">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </label>
+
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="glitch" data-text="Full Stack Developer">Full Stack Developer</h1>
+                <p class="cyber-text">Building the digital future, one line of code at a time</p>
+                <div class="cta-buttons">
+                    <a href="#portfolio" class="cta-btn">View Work</a>
+                    <a href="#contact" class="cta-btn outline">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="profile.png" alt="Profile Image">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="section-header">
+            <h2>About Me</h2>
+            <div class="cyber-line"></div>
+        </div>
+
+        <div class="about-container">
+            <!-- About Content -->
+            <div class="about-content">
+                <div class="about-intro">Hello, I'm Srujan</div>
+                <h1 class="about-title">Full Stack Developer & Digital Creator</h1>
+                <p class="about-description">
+                    I specialize in creating modern, scalable web applications with cutting-edge technologies.
+                    With a passion for clean code and innovative design, I transform ideas into powerful digital
+                    experiences
+                    that drive results and engage users.
+                </p>
+
+                <div class="about-highlights">
+                    <div class="highlight-item">
+                        <i class="fas fa-code"></i>
+                        <span>Clean, Scalable Code</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>Responsive Design</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-rocket"></i>
+                        <span>Performance Focused</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-users"></i>
+                        <span>User-Centric Approach</span>
+                    </div>
+                </div>
+
+                <div class="about-cta">
+                    <a href="#portfolio" class="about-btn primary">
+                        <i class="fas fa-eye"></i>
+                        View My Work
+                    </a>
+                    <a href="#contact" class="about-btn secondary">
+                        <i class="fas fa-envelope"></i>
+                        Get In Touch
+                    </a>
+                </div>
+            </div>
+
+            <!-- About Visual/Stats -->
+            <div class="about-visual">
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Client Satisfaction</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Support Available</span>
+                    </div>
+                </div>
+
+                <div class="about-image">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="services" class="services">
+
+        <div class="section-header">
+            <h2>Services</h2>
+            <div class="cyber-line"></div>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-code"></i>
+                <h3>Frontend Development</h3>
+                <p>Creating responsive and interactive user interfaces with modern frameworks</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-server"></i>
+                <h3>Backend Development</h3>
+                <p>Building robust server-side applications with Node.js and Express</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-database"></i>
+                <h3>Database Management</h3>
+                <p>Designing and optimizing MongoDB databases for performance</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Responsive Design</h3>
+                <p>Creating seamless experiences across all devices</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-gamepad"></i>
+                <h3>Game Development</h3>
+                <p>Building immersive gaming experiences with modern tools and engines</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="skills" class="skills">
+        <div class="section-header">
+            <h2>Technical Skills</h2>
+            <div class="cyber-line"></div>
+        </div>
+
+        <div class="skills-container">
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fab fa-html5" id="html"></i>
+                    <span>HTML5</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-css3-alt" id="css"></i>
+                    <span>CSS3</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-js" id="JavaScript"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-bootstrap" id="bootstrap"></i>
+                    <span>Bootstrap</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-database" id="mongo"></i>
+                    <span>MongoDB</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-react" id="react"></i>
+                    <span>React</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-node" id="node"></i>
+                    <span>Node.js</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-git-alt" id="git"></i>
+                    <span>Git</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="portfolio" class="portfolio">
+        <div class="section-header">
+            <h2>Portfolio</h2>
+            <div class="cyber-line"></div>
+        </div>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <div class="portfolio-content">
+                    <h3>Project 1</h3>
+                    <p>Portfolio Website</p>
+                    <a href="https://srujanshetty0007.github.io/My-Portfolio/" class="project-link">View Project</a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-content">
+                    <h3>Project 2</h3>
+                    <p>Bookmarks Website-WebCyclopedia</p>
+                    <a href="https://srujanshetty0007.github.io/Bookmarks-Website/" class="project-link">View
+                        Project</a>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-content">
+                    <h3>Project 3</h3>
+                    <p>MITK Chronicles</p>
+                    <a href="https://srujanshetty0007.github.io/MITK-Chronicles/" class="project-link">View Project</a>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-content">
+                    <h3>Project 4</h3>
+                    <p>Clothing Store</p>
+                    <a href="https://srujanshetty0007.github.io/Cloth-Store/home.html" class="project-link">View
+                        Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2>Get In Touch</h2>
+            <div class="cyber-line"></div>
+        </div>
+
+        <div class="contact-container">
+            <!-- Contact Info Side -->
+            <div class="contact-info">
+                <h3>Let's Work Together</h3>
+                <p>Ready to bring your ideas to life? I'm here to help you create amazing digital experiences. Whether
+                    you need a website, web application, or just want to discuss your project, feel free to reach out.
+                </p>
+
+                <div class="contact-details">
+                    <div class="contact-detail">
+                        <i class="fas fa-envelope"></i>
+                        <div class="contact-detail-content">
+                            <h4>Email</h4>
+                            <p>srujanshetty0007@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <i class="fas fa-phone"></i>
+                        <div class="contact-detail-content">
+                            <h4>Phone</h4>
+                            <p>+91 (XXX) XXX-XXXX</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="contact-detail-content">
+                            <h4>Location</h4>
+                            <p>India</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <i class="fas fa-clock"></i>
+                        <div class="contact-detail-content">
+                            <h4>Response Time</h4>
+                            <p>Within 24 hours</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/srujan-shetty0007/" class="social-link" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/SrujanShetty0007" class="social-link" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/srujan_shetty_0007/" class="social-link" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="mailto:srujanshetty0007@gmail.com" class="social-link" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Contact Form Side -->
+            <form class="contact-form">
+                <h3>Send Message</h3>
+                <p>Fill out the form below and I'll get back to you as soon as possible.</p>
+
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Tell me about your project or inquiry..."
+                        rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                    <i class="fas fa-paper-plane"></i>
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <div class="announcement-content">
+            <div class="announcement-track">
+                <div class="announcement-item">
+                    <span class="badge">New</span>
+                    <p>Join our webinar on Modern Web Development - Register Now!</p>
+                </div>
+                <div class="announcement-item">
+                    <span class="badge">Event</span>
+                    <p>Tech Conference 2024 - Early Bird Tickets Available</p>
+                </div>
+                <div class="announcement-item">
+                    <span class="badge">Update</span>
+                    <p>Check out our latest case studies and success stories</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-v2">
+        <!-- Newsletter & Updates -->
+        <div class="footer-top">
+            <div class="container">
+                <div class="newsletter-v2">
+                    <div class="newsletter-content">
+                        <h2>Stay Updated</h2>
+                        <p>Subscribe to our newsletter for the latest updates, industry insights, and exclusive content.
+                        </p>
+                        <div class="newsletter-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">10K+</span>
+                                <span class="stat-label">Subscribers</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">89%</span>
+                                <span class="stat-label">Satisfaction</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">4.9</span>
+                                <span class="stat-label">Rating</span>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="newsletter-form-v2">
+                        <div class="form-group">
+                            <input type="email" placeholder="Enter your email address" required>
+                            <button type="submit">
+                                Subscribe
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                        <label class="consent-checkbox">
+                            <input type="checkbox" required>
+                            <span>I agree to receive marketing emails and can unsubscribe at any time</span>
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Footer Content -->
+        <div class="footer-main-v2">
+            <div class="container">
+                <div class="footer-grid">
+                    <!-- Company Info -->
+                    <div class="footer-company">
+                        <div class="footer-logo-v2">
+                            <svg viewBox="0 0 24 24" width="42" height="42" stroke="currentColor" stroke-width="1.5"
+                                fill="none">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                            </svg>
+                            <div class="logo-text">
+                                <h3>TechBrand</h3>
+                                <span>Innovation & Excellence</span>
+                            </div>
+                        </div>
+                        <p class="company-description">We're passionate about creating exceptional digital experiences
+                            that drive business growth and user satisfaction.</p>
+                        <div class="company-metrics">
+                            <div class="metric">
+                                <span class="metric-number">12+</span>
+                                <span class="metric-label">Years Experience</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-number">250+</span>
+                                <span class="metric-label">Projects Completed</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Solutions -->
+                    <div class="footer-section-v2">
+                        <h4>Solutions</h4>
+                        <ul class="footer-links-v2">
+                            <li><a href="#"><i class="fas fa-laptop-code"></i>Web Development</a></li>
+                            <li><a href="#"><i class="fas fa-mobile-alt"></i>Mobile Apps</a></li>
+                            <li><a href="#"><i class="fas fa-cloud"></i>Cloud Services</a></li>
+                            <li><a href="#"><i class="fas fa-paint-brush"></i>UI/UX Design</a></li>
+                            <li><a href="#"><i class="fas fa-chart-line"></i>Digital Marketing</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Company -->
+                    <div class="footer-section-v2">
+                        <h4>Company</h4>
+                        <ul class="footer-links-v2">
+                            <li><a href="#"><i class="fas fa-building"></i>About Us</a></li>
+                            <li><a href="#"><i class="fas fa-users"></i>Our Team</a></li>
+                            <li><a href="#"><i class="fas fa-briefcase"></i>Careers</a></li>
+                            <li><a href="#"><i class="fas fa-newspaper"></i>Press Kit</a></li>
+                            <li><a href="#"><i class="fas fa-handshake"></i>Partners</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact & Social -->
+                    <div class="footer-section-v2">
+                        <h4>Connect With Us</h4>
+                        <div class="contact-info-v2">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <h5>Visit Us</h5>
+                                    <p>123 Innovation Hub, Silicon Valley, CA 94025</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone-alt"></i>
+                                <div>
+                                    <h5>Call Us</h5>
+                                    <p>+1 (555) 123-4567</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h5>Email Us</h5>
+                                    <p>hello@techbrand.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-links-v2">
+                            <a href="#" class="social-link-v2">
+                                <i class="fab fa-linkedin-in"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="#" class="social-link-v2">
+                                <i class="fab fa-twitter"></i>
+                                <span>Twitter</span>
+                            </a>
+                            <a href="#" class="social-link-v2">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="#" class="social-link-v2">
+                                <i class="fab fa-dribbble"></i>
+                                <span>Dribbble</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom-v2">
+            <div class="container">
+                <div class="footer-bottom-content-v2">
+                    <div class="footer-bottom-left">
+                        <p>&copy; 2024 TechBrand. All rights reserved.</p>
+                        <div class="footer-certifications">
+                            <span><i class="fas fa-shield-alt"></i> ISO 27001 Certified</span>
+                            <span><i class="fas fa-award"></i> Award Winning Company</span>
+                        </div>
+                    </div>
+                    <ul class="footer-bottom-links-v2">
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Cookies</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
